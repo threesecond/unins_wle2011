@@ -18,7 +18,7 @@ ECHO      4. 已測試作業系統平台：
 ECHO           Windows Vista x86 SP2 (全版本)
 ECHO           Windows Vista x64 SP2 (全版本)
 ECHO           Windows 7 x86 SP0, SP1 (全版本)
-ECHO           Windows 7 x86 SP0, SP1 (全版本)
+ECHO           Windows 7 x64 SP0, SP1 (全版本)
 ECHO         非支援平台(例如 Windows Server 2008)仍可使用，
 ECHO         但可能會有未移除乾淨的元件。
 ECHO                                                                三秒練功房製
