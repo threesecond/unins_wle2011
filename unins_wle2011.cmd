@@ -13,6 +13,7 @@ ECHO      2. ½Ð¨Ï¥Î"¥H¨t²ÎºÞ²z­û¨­¥÷°õ¦æ"¥»§å¦¸ÀÉ¡A¥H§K¤ÏÂÐ¸õ¥X´£¥Ü°T®§¡A³y¦¨§xÂ
 ECHO      3. ¥»²¾°£µ{¦¡¥i²¾°£¤U¦Cª©¥»ªº Windows Live µ{¦¡¶° 2011¡A
 ECHO           Build 15.4.3502.0922 ÁcÅé¤¤¤åª©
 ECHO           Build 15.4.3508.1109 ÁcÅé¤¤¤åª©
+ECHO           Build 15.4.3538.513 ÁcÅé¤¤¤åª©
 ECHO         ¦p±z¦w¸Ëªº¤£¬O¤W¦Cª©¥»¡A±N¤£°µ¥ô¦ó²§°Ê¡C
 ECHO      4. ¤w´ú¸Õ§@·~¨t²Î¥­¥x¡G
 ECHO           Windows Vista x86 SP2 (¥þª©¥»)
@@ -22,7 +23,7 @@ ECHO           Windows 7 x64 SP0, SP1 (¥þª©¥»)
 ECHO         «D¤ä´©¥­¥x(¨Ò¦p Windows Server 2008)¤´¥i¨Ï¥Î¡A
 ECHO         ¦ý¥i¯à·|¦³¥¼²¾°£°®²bªº¤¸¥ó¡C
 ECHO                                                                ¤T¬í½m¥\©Ð»s
-ECHO                                                        §ó·s¤é´Á¡G2011/02/22
+ECHO                                                        §ó·s¤é´Á¡G2012/02/01
 ECHO ------------------------------------------------------------------------------
 pause
 ECHO.
@@ -30,6 +31,7 @@ ECHO      ¥¿¦b²¾°£ Bing Bar Platform¡A½Ðµy­Ô...
 "%ProgramFiles%\Bing Bar Installer\InstallManager.exe" /UNINSTALL /SILENT > nul
 "%SystemDrive%\Program Files (x86)\Bing Bar Installer\InstallManager.exe" /UNINSTALL /SILENT  > nul
 %Uninstall% {65C0025A-2CDE-43C5-82D0-C7A56EF0DB39} 
+%Uninstall% {449CE12D-E2C7-4B97-B19E-55D163EA9435}
 ECHO      ¥¿¦b²¾°£ Junk Mail filter update¡A½Ðµy­Ô...
 %Uninstall% {1F6AB0E7-8CDD-4B93-8A23-AA9EB2FEFCE4} 
 ECHO      ¥¿¦b²¾°£ Mesh Runtime¡A½Ðµy­Ô...
@@ -55,14 +57,22 @@ ECHO      ¥¿¦b²¾°£ Windows Live Family Safety¡A½Ðµy­Ô...
 %Uninstall% {F53D678E-238F-4A71-9742-08BB6774E9DC} 
 %Uninstall% {401C50F6-B443-43EE-8F27-A80DB19B03FD}
 %Uninstall% {46A5FBE9-ADB3-4493-A1CC-B4CFFD24D26A}
+%Uninstall% {84C98D03-BD5C-4D62-B8B0-48825D6C0AF7}
+%Uninstall% {BCF16F16-AC0E-4ABE-A9EF-412CF484BA51}
+%Uninstall% {3CE222BA-66A6-4D18-BEE9-5D21C5798C3E}
+%Uninstall% {CEA21F20-DBF4-464C-8B81-28B8508AFDDD}
+%Uninstall% {1FB31F44-D4D0-4D76-944A-A1A5D79FD321}
 ECHO      ¥¿¦b²¾°£ Windows Live ID Sign-in Assistant¡A½Ðµy­Ô...
 %Uninstall% {61AD15B2-50DB-4686-A739-14FE180D4429} 
 %Uninstall% {1B8ABA62-74F0-47ED-B18C-A43128E591B8}
+%Uninstall% {C6150D8A-86ED-41D3-87BB-F3BB51B0B77F}
+%Uninstall% {1ACC8FFB-9D84-4C05-A4DE-D28A9BC91698}
 ECHO      ¥¿¦b²¾°£ Windows Live Installer¡A½Ðµy­Ô...
 %Uninstall% {0B0F231F-CE6A-483D-AA23-77B364F75917} 
 ECHO      ¥¿¦b²¾°£ Windows Live Language Selector¡A½Ðµy­Ô...
 %Uninstall% {D07A61E5-A59C-433C-BCBD-22025FA2287B}
 %Uninstall% {5EB6F3CB-46F4-451F-A028-7F6D8D35D7D0}
+%Uninstall% {180C8888-50F1-426B-A9DC-AB83A1989C65}
 ECHO      ¥¿¦b²¾°£ Windows Live Mail¡A½Ðµy­Ô...
 %Uninstall% {9D56775A-93F3-44A3-8092-840E3826DE30} 
 %Uninstall% {A0B91308-6666-4249-8FF6-1E11AFD75FE1} 
@@ -72,6 +82,8 @@ ECHO      ¥¿¦b²¾°£ Windows Live Mesh¡A½Ðµy­Ô...
 ECHO      ¥¿¦b²¾°£ Windows Live Messenger¡A½Ðµy­Ô...
 %Uninstall% {63AE67AA-1AB1-4565-B4EF-ABBC5C841E8D} 
 %Uninstall% {EB4DF488-AAEF-406F-A341-CB2AAA315B90} 
+%Uninstall% {BAEE89D5-6E87-4F89-9603-A1C100479181}
+%Uninstall% {E5B21F11-6933-4E0B-A25C-7963E3C07D11}
 ECHO      ¥¿¦b²¾°£ Windows Live Messenger Companion Core¡A½Ðµy­Ô...
 %Uninstall% {78A96B4C-A643-4D0F-98C2-A8E16A6669F9} 
 ECHO      ¥¿¦b²¾°£ Windows Live MIME IFilter¡A½Ðµy­Ô...
@@ -93,13 +105,15 @@ ECHO      ¥¿¦b²¾°£ Windows Live Remote Client¡A½Ðµy­Ô...
 %Uninstall% {DF6D988A-EEA0-4277-AAB8-158E086E439B}
 ECHO      ¥¿¦b²¾°£ Windows Live Remote Client Resources¡A½Ðµy­Ô...
 %Uninstall% {30E82CD5-6E97-4381-86EB-548202A6D5B7}
-%Uninstall% {825C7D3F-D0B3-49D5-A42B-CBB0FBE85E99} 
+%Uninstall% {825C7D3F-D0B3-49D5-A42B-CBB0FBE85E99}
+%Uninstall% {847B0532-55E3-4AAF-8D7B-E3A1A7CD17E5} 
 ECHO      ¥¿¦b²¾°£ Windows Live Remote Service¡A½Ðµy­Ô...
 %Uninstall% {227E8782-B2F4-4E97-B0EE-49DE9CC1C0C0} 
 %Uninstall% {E02A6548-6FDE-40E2-8ED9-119D7D7E641F}
 ECHO      ¥¿¦b²¾°£ Windows Live Remote Service Resources¡A½Ðµy­Ô...
 %Uninstall% {065241D0-A178-4F24-8A09-691761A8957B}
 %Uninstall% {FAA3933C-6F0D-4350-B66B-9D7F7031343E} 
+%Uninstall% {656DEEDE-F6AC-47CA-A568-A1B4E34B5760}
 ECHO      ¥¿¦b²¾°£ Windows Live SOXE¡A½Ðµy­Ô...
 %Uninstall% {682B3E4F-696A-42DE-A41C-4C07EA1678B4} 
 ECHO      ¥¿¦b²¾°£ Windows Live SOXE Definitions¡A½Ðµy­Ô...
@@ -118,7 +132,9 @@ ECHO      ¥¿¦b²¾°£ Windows Live Writer Resources¡A½Ðµy­Ô...
 ECHO      ¥¿¦b²¾°£ Windows Live µ{¦¡¶°¡A½Ðµy­Ô...
 %Uninstall% {EF7EAB13-46FC-49DD-8E3C-AAF8A286C5BB} 
 ECHO      ¥¿¦b²¾°£ Windows Live ¼v¹³¤¤¤ß¡A½Ðµy­Ô...
-%Uninstall% {EEF99142-3357-402C-B298-DEC303E12D92} 
+%Uninstall% {EEF99142-3357-402C-B298-DEC303E12D92}
+ECHO      ¥¿¦b²¾°£ D3DX10¡A½Ðµy­Ô...
+%Uninstall% {E09C4DB7-630C-4F06-A631-8EA7239923AF} 
 ECHO      ¥¿¦b²¾°£ ¾A¥Î»·ºÝ³s½uªº Windows Live Mesh ActiveX ±±¨î¶µ¡A½Ðµy­Ô...
 %Uninstall% {622DE1BE-9EDE-49D3-B349-29D64760342A} 
 ECHO      ¥¿¦b²M°£¦w¸ËÀÉ®×¡A½Ðµy­Ô...
