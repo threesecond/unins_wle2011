@@ -14,16 +14,18 @@ ECHO      3. 本移除程式可移除下列版本的 Windows Live 程式集 2011，
 ECHO           Build 15.4.3502.0922 繁體中文版
 ECHO           Build 15.4.3508.1109 繁體中文版
 ECHO           Build 15.4.3538.513 繁體中文版
+ECHO           Build 15.4.3555.308 繁體中文版
 ECHO         如您安裝的不是上列版本，將不做任何異動。
 ECHO      4. 已測試作業系統平台：
 ECHO           Windows Vista x86 SP2 (全版本)
 ECHO           Windows Vista x64 SP2 (全版本)
 ECHO           Windows 7 x86 SP0, SP1 (全版本)
 ECHO           Windows 7 x64 SP0, SP1 (全版本)
-ECHO         非支援平台(例如 Windows Server 2008)仍可使用，
+ECHO           Windows Server 2008 R2 SP1 (全版本)
+ECHO         非支援平台(例如 Windows Server 2008 無印版)仍可使用，
 ECHO         但可能會有未移除乾淨的元件。
 ECHO                                                                三秒練功房製
-ECHO                                                        更新日期：2012/02/01
+ECHO                                                        更新日期：2012/05/01
 ECHO ------------------------------------------------------------------------------
 pause
 ECHO.
@@ -62,6 +64,10 @@ ECHO      正在移除 Windows Live Family Safety，請稍候...
 %Uninstall% {3CE222BA-66A6-4D18-BEE9-5D21C5798C3E}
 %Uninstall% {CEA21F20-DBF4-464C-8B81-28B8508AFDDD}
 %Uninstall% {1FB31F44-D4D0-4D76-944A-A1A5D79FD321}
+%Uninstall% {2D6E3D97-1FDF-4993-AC75-72F59EC445C5}
+%Uninstall% {A5892E89-E0B5-4DE3-8C5B-347A6FB535BD}
+%Uninstall% {0D87AE67-14EB-4C10-88A5-DA6C3181EB18}
+%Uninstall% {8832CAA2-4934-4916-A8BF-A9A51C6B58B3}
 ECHO      正在移除 Windows Live ID Sign-in Assistant，請稍候...
 %Uninstall% {61AD15B2-50DB-4686-A739-14FE180D4429} 
 %Uninstall% {1B8ABA62-74F0-47ED-B18C-A43128E591B8}
@@ -73,6 +79,7 @@ ECHO      正在移除 Windows Live Language Selector，請稍候...
 %Uninstall% {D07A61E5-A59C-433C-BCBD-22025FA2287B}
 %Uninstall% {5EB6F3CB-46F4-451F-A028-7F6D8D35D7D0}
 %Uninstall% {180C8888-50F1-426B-A9DC-AB83A1989C65}
+%Uninstall% {027E5FAB-1476-4C59-AAB4-32EF28520399}
 ECHO      正在移除 Windows Live Mail，請稍候...
 %Uninstall% {9D56775A-93F3-44A3-8092-840E3826DE30} 
 %Uninstall% {A0B91308-6666-4249-8FF6-1E11AFD75FE1} 
@@ -107,6 +114,7 @@ ECHO      正在移除 Windows Live Remote Client Resources，請稍候...
 %Uninstall% {30E82CD5-6E97-4381-86EB-548202A6D5B7}
 %Uninstall% {825C7D3F-D0B3-49D5-A42B-CBB0FBE85E99}
 %Uninstall% {847B0532-55E3-4AAF-8D7B-E3A1A7CD17E5} 
+%Uninstall% {BA28586D-6AAF-48E3-ACAE-C0D457641985}
 ECHO      正在移除 Windows Live Remote Service，請稍候...
 %Uninstall% {227E8782-B2F4-4E97-B0EE-49DE9CC1C0C0} 
 %Uninstall% {E02A6548-6FDE-40E2-8ED9-119D7D7E641F}
@@ -114,6 +122,7 @@ ECHO      正在移除 Windows Live Remote Service Resources，請稍候...
 %Uninstall% {065241D0-A178-4F24-8A09-691761A8957B}
 %Uninstall% {FAA3933C-6F0D-4350-B66B-9D7F7031343E} 
 %Uninstall% {656DEEDE-F6AC-47CA-A568-A1B4E34B5760}
+%Uninstall% {95D01D6E-EA9D-4AC8-8B56-844A37091803}
 ECHO      正在移除 Windows Live SOXE，請稍候...
 %Uninstall% {682B3E4F-696A-42DE-A41C-4C07EA1678B4} 
 ECHO      正在移除 Windows Live SOXE Definitions，請稍候...

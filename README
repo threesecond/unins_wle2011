@@ -7,13 +7,15 @@
       Build 15.4.3502.0922 繁體中文版
       Build 15.4.3508.1109 繁體中文版
       Build 15.4.3538.513 繁體中文版
+      Build 15.4.3555.308 繁體中文版
     如您安裝的不是上列版本，將不做任何異動。
  4. 已測試作業系統平台：
       Windows Vista x86 SP2 (全版本)
       Windows Vista x64 SP2 (全版本)
       Windows 7 x86 SP0, SP1 (全版本)
       Windows 7 x64 SP0, SP1 (全版本)
-    非支援平台(例如 Windows Server 2008)仍可使用，
+      Windows Server 2008 R2 SP1 (全版本)
+    非支援平台(例如 Windows Server 2008 無印版)仍可使用，
     但可能會有未移除乾淨的元件。
                                                            三秒練功房製
-                                                   更新日期：2012/02/01
+                                                   更新日期：2012/05/01
